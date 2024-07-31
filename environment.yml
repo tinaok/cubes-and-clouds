@@ -3,6 +3,7 @@ channels:
   - defaults
   - conda-forge
 dependencies:
+  - jupyter-book
   - numpy
   - pandas
   - matplotlib
@@ -22,5 +23,6 @@ dependencies:
   - pip:
     - rio_stac
     - sklearn
+    - sphinx-exercise
     - openeo-processes-dask[implementations]
     - openeo-pg-parser-networkx

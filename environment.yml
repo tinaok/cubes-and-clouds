@@ -19,10 +19,10 @@ dependencies:
   - h5netcdf
   - netcdf4
   - pystac
+  - scikit-learn
   - pip
   - pip:
-    - rio_stac
-    - sklearn
+    - rio-stac
     - sphinx-exercise
     - openeo-processes-dask[implementations]
     - openeo-pg-parser-networkx

@@ -29,12 +29,12 @@ jobs:
       # Build the book
       - name: Build the jupyter book
         run: |
-          jupyter-book build docs
+          jupyter-book build lectures
       # Deploy the book's HTML to gh-pages branch
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           publish_branch: gh-pages
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: docs/_build/html
+          publish_dir: lectures/_build/html
           force_orphan: true

@@ -7,18 +7,26 @@ chapters:
 - file: 1.2_data_cube/1.2_data_cube
 - file: 1.3_openscience/1.3.1_openscienceandfair
   sections:
-  - file: 1.3_openscience/1.3.2_opendataopensource
   - file: 1.3_openscience/1.3.3_openscienceineo
+  - file: 1.3_openscience/1.3.2_opendataopensource
 - file: 2.1_data_discovery/2.1_data_discovery
 - file: 2.2_data_properties/2.2_data_properties
 - file: 2.3_data_access/2.3_data_access
   sections:
-  - file: 2.3_data_access/exercises/23_data_access_lazy_loading
+  - file: 2.3_data_access/exercises/2323__data_access_lazy_loading
   - file: 2.3_data_access/exercises/23_data_access_reduce
   - file: 2.3_data_access/exercises/23_data_access_filter
   - file: 2.3_data_access/exercises/23_data_access_resample
   - file: 2.3_data_access/exercises/23_data_access_aggregate
   - file: 2.3_data_access/exercises/23_data_access_apply
+- file: 2.3_data_access/2.3_pangeo_data_access
+  sections:
+  - file: 2.3_data_access/exercises/_alternatives/pangeo_data_access_lazy_loading
+  - file: 2.3_data_access/exercises/_alternatives/pangeo_data_access_reduce
+  - file: 2.3_data_access/exercises/_alternatives/pangeo_data_access_filter
+  - file: 2.3_data_access/exercises/_alternatives/pangeo_data_access_resample
+  - file: 2.3_data_access/exercises/_alternatives/pangeo_data_access_aggregate
+  - file: 2.3_data_access/exercises/_alternatives/pangeo_data_access_apply
 - file: 2.4_formats_and_performance/2.4_formats_and_performance
 - file: 3.1_data_processing/3.1_data_processing
   title: Data processing

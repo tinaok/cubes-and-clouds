@@ -73,12 +73,17 @@ As mentioned above, the course is openly available on **EOCollege**. However, if
 
 ### Prerequisites
 
-- Ensure you have Python 3 installed. We recommend to install first [Mamba](https://mamba.readthedocs.io/en/latest/installation/mamba-installation.html) and follow the steps to install Python 3 and all the necessary Python packages.
-- Install [Mamba](https://mamba.readthedocs.io/en/latest/installation/mamba-installation.html) on your system. 
-- To install the necessary Python packages (see environment.yml): 
+- Ensure you have Python 3.11 installed. We recommend to install first [Mamba](https://mamba.readthedocs.io/en/latest/installation/mamba-installation.html) and follow the steps to install Python 3.11 and all the necessary Python packages.
+- you may want to use [Mamba](https://mamba.readthedocs.io/en/latest/installation/mamba-installation.html) to manage your Python packages and environments on your system. To install the necessary Python packages with mamba (environment.yml): 
 
 ```bash
 mamba env create -f environment.yml
+```
+
+- To install the necessary package with pip:
+
+```bash
+pip install -r requirements.txt
 ```
 
 ### Supported Environments

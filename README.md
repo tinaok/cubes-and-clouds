@@ -67,6 +67,49 @@ We're happy to receive your contributions to lessons, exercises, bug reports etc
   - [Obsidian](https://obsidian.md/): Obsidian is a knowledge management system. Add obsidian file toplevel to create your void, or add the course to an existing one.
   - [Bookdown](https://bookdown.org/): You can render the course using bookdown or similar to have a rendered version of the markdown files in the repo. Some work needed to do that.
 
+## Build, Installation, and Execution Instructions
+
+As mentioned above, the course is openly available on **EOCollege**. However, if you wish to run the notebooks locally or want to further contribute to the lessons, you can follow the steps below.
+
+### Prerequisites
+
+- Ensure you have Python 3 installed. We recommend to install first [Mamba](https://mamba.readthedocs.io/en/latest/installation/mamba-installation.html) and follow the steps to install Python 3 and all the necessary Python packages.
+- Install [Mamba](https://mamba.readthedocs.io/en/latest/installation/mamba-installation.html) on your system. 
+- To install the necessary Python packages (see environment.yml): 
+
+```bash
+mamba env create -f environment.yml
+```
+
+### Supported Environments
+
+This project is compatible with macOS and Linux distributions with Python 3 installed.
+
+### Build Instructions
+
+To build this project, ensure you have Python 3  and all the necessary Python packages (see environmemt.yml) installed on your system. 
+
+Clone the Repository, Navigate to the Project Directory:
+
+```bash
+git clone https://github.com/EO-College/cubes-and-clouds.git && cd cubes-and-clouds 
+```
+
+Then build the web pages Project with [jupyter book](https://jupyterbook.org/en/stable/intro.html):**
+
+```bash
+jupyter-book build lectures/
+```
+
+### Installation Instructions
+
+Once the build is successful, you can check the web pages in the `lectures/_build` folder. If you want to deploy the jupyter book online, we suggest you follow the [Jupyter book documentation](https://jupyterbook.org/en/stable/basics/building/index.html).
+
+
+### Execution Instructions
+
+To execute the Jupyter notebooks, we suggest you to follow the course on **EO-college**.
+
 ## Authors and Acknowledgement
 ### Reviewers
 - 1.1 What is a Platform: [Jeroen Dries, VITO](https://remotesensing.vito.be/team/jeroen-dries)

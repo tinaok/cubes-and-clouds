@@ -25,5 +25,7 @@ dependencies:
     - rio-stac
     - jupyter-book
     - sphinx-exercise
+    - rio_stac
+    - scikit-learn
     - openeo-processes-dask[implementations]
     - openeo-pg-parser-networkx

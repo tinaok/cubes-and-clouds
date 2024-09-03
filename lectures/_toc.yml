@@ -19,7 +19,7 @@ parts:
     - file: 2.2_data_properties/2.2_data_properties
     - file: 2.3_data_access/2.3_data_access
       sections:
-      - file: 2.3_data_access/exercises/2323__data_access_lazy_loading
+      - file: 2.3_data_access/exercises/23_data_access_lazy_loading
       - file: 2.3_data_access/exercises/23_data_access_reduce
       - file: 2.3_data_access/exercises/23_data_access_filter
       - file: 2.3_data_access/exercises/23_data_access_resample
@@ -45,6 +45,8 @@ parts:
         title: EO workflow with STAC
       - file: 3.1_data_processing/3.1_exercises/_alternatives/31_data_processing_openEO_Platform
         title: EO workflow with openEO
+      - file: 3.1_data_processing/3.1_exercises/_alternatives/31_data_processing_pangeo
+        title: EO workflow with Pangeo
       - file: 3.1_data_processing/3.1_exercises/_alternatives/34_data_sharing_aoi_test
         title: Data sharing and publishing
     - file: 3.2_validation/3.2_validation
